@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio &ndash; Trung Dao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav class="navigation">
+            <div class="navigation__burger">
+                <span class="navigation__icon">
+
+                </span>
+            </div>
+            <ul class="navigation__static">
+                <li class="js--scroll-to-home" id="home">Home</li>
+                <li class="js--scroll-to-about" id="about">About</li>
+                <li class="js--scroll-to-skills" id="skills">Skills</li>
+                <li class="js--scroll-to-project" id="projects">Projects</li>
+                <li class="js--scroll-to-contact" id="contact">Contact</li>
+            </ul>
+
+            <!-- <ul class="navigation__toggle">
+                <li class="js--scroll-to-home" id="home">Home</li>
+                <li class="js--scroll-to-about" id="about">About</li>
+                <li class="js--scroll-to-skills" id="skills">Skills</li>
+                <li class="js--scroll-to-project" id="projects">Projects</li>
+                <li class="js--scroll-to-contact" id="contact">Contact</li>
+            </ul> -->
+        </nav>
+
+        <section class="section-home navtarget js--section-home" id="home">
+
+            <div class="section-home__text">
+                <div class="heading-primary heading-primary--white">
+                    I'm Trung Dao
+                </div>
+                <div class="heading-secondary heading-secondary--white">
+                    A Front-end Developer
+                </div>
+                <a href="#" class="btn btn--white js--scroll-to-project">View Projects</a>
+            </div>
+        </section>
+
+        <section class="section-about-me navtarget js--section-about" id="about">
+            <div class="section-about-me__left">
+                <img src="./img/PersonalPhoto.jpg" alt="Personal-Photo">
+            </div>
+            <div class="section-about-me__right">
+                <div class="heading-primary heading-primary--dark wow bounceInUp">
+                    About Me
+                </div>
+                <div class="section-about-me__paragraph">
+                    <p>
+                        My name is Trung Dao. I strive to build elegent, modern, highly functional website with the
+                        best quality and performance. The work I provide is of highest quality, fully responsive and
+                        tested in a wide range of devices.
+                    </p>
+                    <br>
+                    <p>
+                        My journey as a front-end developer started at mid June 2018 after I got my bachelor in
+                        External Economics at Foreign Trade University. Within nearly 4 months I have learnt the basic
+                        concept of programming such as Algorithm, Database, and all essential functions of a website
+                        from front-end to back-end.
+                    </p>
+                    <br>
+                    <p>
+                        I have experience programming in various languages and work with number of web development
+                        technologies. I am always eager to learn about new things also to improve my skills in order to
+                        be a fullstack developer in the near future.
+                    </p>
+                </div>
+                <a href="#" class="btn btn--dark js--scroll-to-contact">Let's Talk</a>
+            </div>
+        </section>
+        <section class="section-skillset u-margin-top-large navtarget js--section-skills" id="skills">
+            <div class="row">
+                <div class="col-1-of-2 section-skillset__title">
+                    <div class="heading-primary heading-primary--dark wow bounceInLeft">
+                        Skillset
+                    </div>
+                    <div class="section-skillset__paragraph">
+                        <p>
+                            My work is something I do with lot of honesty, appetite and commitment. Over the past 4
+                            months I had the opportunity to hands-on technologies and skills that required to be a
+                            professional front-end web developer.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-2">&nbsp;</div>
+            </div>
+            <div class="row section-skillset__content">
+                <div class="col-1-of-3">
+                    <div class="heading-third wow bounceInLeft">Development Skills</div>
+                    <ul class="list-primary">
+                        <li>HTML5</li>
+                        <li>CSS3 - Sass</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Nodejs</li>
+                        <li>Java-core</li>
+                        <li>Python</li>
+                        <li>React(on-training)</li>
+                    </ul>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="heading-third wow bounceInUp">Project Managing Skills</div>
+                    <ul class="list-primary">
+                        <li>Github</li>
+                        <li>Webpack</li>
+                        <li>Gulp</li>
+                    </ul>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="heading-third wow bounceInRight">Personal Hobbies</div>
+                    <ul class="list-primary">
+                        <li>Learning New Technologies</li>
+                        <li>Gym</li>
+                        <li>Gaming</li>
+                        <li>Traveling</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-projects u-margin-top-large navtarget" id="projects">
+            <div class="heading-primary heading-primary--dark js--section-projects row wow slideInUp" style="text-align: center; padding-top: 10rem;">
+                Projects
+            </div>
+            <div class="row">
+                <div class="col-1-of-2 section-projects__container">
+                    <a href="https://omnifood-.herokuapp.com/" target="_blank" style="text-decoration: none;">
+                        <img src="./img/omnifood.png" alt="Omnifood" class="section-projects__image">
+                        <div class="section-projects__content">Click for details</div>
+                    </a>
+                </div>
+                <div class="col-1-of-2 section-projects__paragraph">
+                    <p>
+                        A landing page for healthy meals plan made by basic HTML/CSS and javascript libraries such as
+                        waypoint, jquery, animation, wow, and a custom navbar in order to train my HTML/CSS/JS skill.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2 section-projects__paragraph">
+                    <p>
+
+                        An advanced project made by lots of complex CSS properties, transition and animations such as
+                        3D-perspective, clip-text, polygon, and pure-popup with plain CSS.
+
+                    </p>
+                </div>
+                <div class="col-1-of-2 section-projects__container">
+                    <a href="https://natours-demoapp.herokuapp.com/" target="_blank" style="text-decoration: none;">
+                        <img src="./img/nextour.png" alt="Omnifood" class="section-projects__image">
+                        <div class="section-projects__content">Click for details</div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2 section-projects__container">
+                    <a href="https://trillo-demo-app.herokuapp.com/" target="_blank" style="text-decoration: none;">
+                        <img src="./img/trillo.png" alt="Omnifood" class="section-projects__image">
+                        <div class="section-projects__content">Click for details</div>
+                    </a>
+                </div>
+                <div class="col-1-of-2 section-projects__paragraph">
+                    <p>
+                        Trillo is a small project that I made to train my CSS flex-box feature, all the columns and the
+                        layout of the site is made by flexbox properties.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2 section-projects__paragraph">
+                    <p>
+                        Nexter is made by grid feature, a whole new feature of CSS to create a professional, clean and
+                        easily maintained layout without using float and custom grid of bootstrap.
+                    </p>
+                </div>
+                <div class="col-1-of-2 section-projects__container">
+                    <a href="https://nexter-appdemo.herokuapp.com/" target="_blank" style="text-decoration: none;">
+                        <img src="./img/nexter.png" alt="Omnifood" class="section-projects__image">
+                        <div class="section-projects__content">Click for details</div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2 section-projects__container">
+                    <a href="https://mobile-app-demo.herokuapp.com/" target="_blank" style="text-decoration: none;">
+                        <img src="./img/mobileapp.png" alt="Omnifood" class="section-projects__image">
+                        <div class="section-projects__content">Click for details</div>
+                    </a>
+                </div>
+                <div class="col-1-of-2 section-projects__paragraph">
+                    <p>
+                        The site is a simple and basic landing site converted from PSD using html/css/javascript.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-contact u-margin-top-large js--section-contact navtarget" id="contact">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="heading-primary heading-primary--dark wow zoomIn">
+                        Contact
+                    </div>
+                    <div class="section-contact__paragraph">
+                    </div>
+                </div>
+                <div class="col-1-of-2">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="heading-third wow bounce">I'm Available for Hiring!</div>
+                    <div>
+                        <input type="text" placeholder="Your Name*" class="input-secondary" style="margin-right: 2rem;">
+                        <input type="email" placeholder="Your Email*" class="input-secondary">
+                    </div>
+                    <textarea class="input-primary" cols="10" rows="1" placeholder="Share Your Thoughts*"></textarea>
+                    <button class="btn">Send Message</button>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="heading-third wow swing">Get Me In Social Networks</div>
+                    <a href="https://twitter.com/TrungDao912" target="_blank" style="text-decoration: none;"><img src="./img/twitter.jpg"
+                            alt="" class="section-contact__image">
+                        <div class="section-contact__line"></div>
+                    </a>
+                    <br>
+                    <a href="https://www.facebook.com/tdao912" target="_blank" style="text-decoration: none;"><img src="./img/facebook.png"
+                            alt="" class="section-contact__image">
+                        <div class="section-contact__line"></div>
+                    </a>
+                    <br>
+                    <a href="https://plus.google.com/u/0/109000081098960613181" target="_blank" style="text-decoration: none;"><img
+                            src="./img/gplus.png" alt="" class="section-contact__image">
+                        <div class="section-contact__line"></div>
+                    </a>
+                    <br>
+                    <a href="https://github.com/trungdao912" target="_blank" style="text-decoration: none;"><img src="./img/github.png"
+                            alt="" class="section-contact__image">
+                        <div class="section-contact__line"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="section-footer u-margin-top-large">
+            Copyright@2018 By Trung Dao
+        </footer>
+    </main>
+    <script src="js/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
